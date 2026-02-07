@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhawana ko portfolio</title>
+    <meta name="description" content="Bhawana ko porfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/skill.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+  </head>
+  <body>
+    <nav class="sidebar">
+      <i id="hamburger" class="fa-solid fa-bars sidebar_hamburger"></i>
+      <div class="sidebar_content">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="hero">
+      <h1>Hi! <br />I am Bhawana <br /><br />I am a developer</h1>
+      <p>Electronics,communication and information engineer</p>
+      <button>contact me<i class="fa-solid fa-envelope"></i></button>
+    </section>
+
+    <section id="about" class="section">
+      <p class="section_title">about_me</p>
+      <p class="section_subtitle">who am i</p>
+
+      <p class="about_description">
+        <strong>Hi,I am Bhabs,the best in the whole world.</strong>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat non
+        molestias excepturi soluta sed aliquid quibusdam nobis autem iste quidem
+        obcaecati alias veniam laborum minus, libero debitis. Omnis, voluptatum
+        incidunt.
+      </p>
+
+      <div class="about_skills">
+        <div>
+          <i class="fa-solid fa-ear-listen"></i>
+          <h3>Web development</h3>
+        </div>
+        <div>
+          <i class="fa-solid fa-globe"></i>
+          <h3>Web design</h3>
+        </div>
+        <div>
+          <i class="fa-solid fa-database"></i>
+          <h3>Machine learing</h3>
+        </div>
+        <div>
+          <i class="fa-solid fa-mobile"></i>
+          <h3>Mobile application</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="section_title">my specialty</p>
+      <p class="section_subtitle">my skills</p>
+
+      <div class="outer_box">
+        <div class="skill_box">
+          <p>html</p>
+          <div class="skill_grey_box">
+            <div class="skill_color_box">
+              <span>88%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill_box">
+          <p>IQ</p>
+          <div class="skill_grey_box">
+            <div
+              class="skill_color_box"
+              style="color: brown; background: brown; width: 77%"
+            >
+              <span>77%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill_box">
+          <p>Reasoning</p>
+          <div class="skill_grey_box">
+            <div
+              class="skill_color_box"
+              style="color: hotpink; background: hotpink; width: 66%"
+            >
+              <span>66%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill_box">
+          <p>CSS</p>
+          <div class="skill_grey_box">
+            <div
+              class="skill_color_box"
+              style="color: purple; background: purple; width: 55%"
+            >
+              <span>55%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill_box">
+          <p>Handy</p>
+          <div class="skill_grey_box">
+            <div
+              class="skill_color_box"
+              style="color: crimson; background: crimson; width: 44%"
+            >
+              <span>44%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill_box">
+          <p>liked</p>
+          <div class="skill_grey_box">
+            <div
+              class="skill_color_box"
+              style="color: seagreen; background: seagreen; width: 33%"
+            >
+              <span>33%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const hamburger = document.querySelector("#hamburger");
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("sidebar_hamburger_translate");
+      });
+    </script>
+  </body>
+</html>
