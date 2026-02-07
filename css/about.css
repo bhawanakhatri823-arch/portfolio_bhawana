@@ -1,4 +1,6 @@
 .about_description {
+  font-family: sans-serif;
+  font-weight: normal;
   color: rgba(0, 0, 0, 0.7);
   margin-bottom: 40px;
   line-height: 1.8;
@@ -31,6 +33,7 @@
   color: purple;
 }
 .about_skills i {
+  color: aqua;
   font-size: 30px;
   margin-bottom: 20px;
 }

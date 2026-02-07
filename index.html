@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -18,29 +18,45 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/work-count.css" />
     <link rel="stylesheet" href="css/hero.css" />
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/skill.css" />
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/sidebar.css" />
+    <link rel="stylesheet" href="css/contact.css" />
   </head>
+
   <body>
     <nav class="sidebar">
       <i id="hamburger" class="fa-solid fa-bars sidebar_hamburger"></i>
       <div class="sidebar_content">
+        <img
+          class="sidebar__image"
+          src="images/profile.jpeg"
+          alt="Profile Image"
+        />
+        <h1 class="sidebar__name">Bhawana Khatri</h1>
+        <h2 class="sidebar__job">Engineering student <span>in Nepal</span></h2>
         <ul>
           <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#work__count">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+        <p class="sidebar__copyright">
+          &copy; 2026 All rights reserved | Made with &#128150; by
+          <span>Bhaws</span>
+        </p>
       </div>
     </nav>
 
     <section id="hero">
-      <h1>Hi! <br />I am Bhawana <br /><br />I am a developer</h1>
-      <p>Electronics,communication and information engineer</p>
-      <button>contact me<i class="fa-solid fa-envelope"></i></button>
+      <h1>Hi! <br />I am Bhawana <br />I am a learning developer</h1>
+      <p>Electronics,Communication and Information Engineer</p>
+      <button>Contact me(^_^)<i class="fa-solid fa-envelope"></i></button>
     </section>
 
     <section id="about" class="section">
@@ -48,17 +64,19 @@
       <p class="section_subtitle">who am i</p>
 
       <p class="about_description">
-        <strong>Hi,I am Bhabs,the best in the whole world.</strong>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat non
-        molestias excepturi soluta sed aliquid quibusdam nobis autem iste quidem
-        obcaecati alias veniam laborum minus, libero debitis. Omnis, voluptatum
-        incidunt.
+        <strong
+          >Hi,I am Bhawana Khatri,a electronics engineering student.</strong
+        >
+        I am currently on my third year into my engineering course.I have
+        learned many hardware and software skills that are very useful in the
+        current electronics and communication field, both in college and by
+        myself.
       </p>
 
       <div class="about_skills">
         <div>
           <i class="fa-solid fa-ear-listen"></i>
-          <h3>Web development</h3>
+          <h3>Graphic Design</h3>
         </div>
         <div>
           <i class="fa-solid fa-globe"></i>
@@ -66,13 +84,24 @@
         </div>
         <div>
           <i class="fa-solid fa-database"></i>
-          <h3>Machine learing</h3>
+          <h3>Software</h3>
         </div>
         <div>
           <i class="fa-solid fa-mobile"></i>
           <h3>Mobile application</h3>
         </div>
       </div>
+    </section>
+
+    <section id="work__count" class="section">
+      <p class="section_title">Education</p>
+      <p class="section_subtitle">My Education</p>
+      <span>SEE:Tarun Secondary School</span>
+      <span>NEB</span>
+      <span>+2:Xavier Internation College</span>
+      <span>NEB</span>
+      <span>Bachelors:NationalCollege Of Engineering</span>
+      <span>TU:IOE</span>
     </section>
 
     <section id="skills" class="section">
@@ -89,7 +118,7 @@
           </div>
         </div>
         <div class="skill_box">
-          <p>IQ</p>
+          <p>Python</p>
           <div class="skill_grey_box">
             <div
               class="skill_color_box"
@@ -100,7 +129,7 @@
           </div>
         </div>
         <div class="skill_box">
-          <p>Reasoning</p>
+          <p>C++</p>
           <div class="skill_grey_box">
             <div
               class="skill_color_box"
@@ -122,7 +151,7 @@
           </div>
         </div>
         <div class="skill_box">
-          <p>Handy</p>
+          <p>IOT</p>
           <div class="skill_grey_box">
             <div
               class="skill_color_box"
@@ -133,7 +162,7 @@
           </div>
         </div>
         <div class="skill_box">
-          <p>liked</p>
+          <p>Arduiino</p>
           <div class="skill_grey_box">
             <div
               class="skill_color_box"
@@ -144,6 +173,48 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section id="contact" class="section">
+      <span class="section__title">Get In Touch</span>
+      <h2 class="section__subtitle">Contact</h2>
+      <i class="fa-solid fa-envelope"></i>
+      <a href="mailto:bhawanakhatri823@gmail.com">bhawanakhatri823@gmail.com</a>
+      <br /><br />
+      <i class="fa-solid fa-phone"></i>
+      <a href="tel:+9779849092414">9849092414</a>
+      <br /><br />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.7182622964947!2d85.34322777492372!3d27.725983824670244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb196639b71897%3A0xa133e36ac458eb1f!2sOscar%20International%20College%20(College%20of%20Film%20Studies)%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1770453352188!5m2!1sen!2snp"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <form
+        action=""
+        id="contactForm"
+        class="contact__form"
+        onsubmit="submitForm(event)"
+      >
+        <input
+          type="text"
+          placeholder="Name"
+          id="name"
+          name="name"
+          class="contact__input"
+        />
+        <textarea
+          id="message"
+          class="contact__textarea"
+          name="message"
+          placeholder="Message"
+          rows="4"
+        ></textarea>
+        <button class="contact__button" type="submit">Send Message</button>
+      </form>
     </section>
 
     <script>
